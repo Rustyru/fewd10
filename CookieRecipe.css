@@ -1,5 +1,7 @@
 body{
-background-color: #FFE
+background-color: #FFE;
+    border-color: black;
+    border-style: solid;
 }
 h3{
     color: #887;
