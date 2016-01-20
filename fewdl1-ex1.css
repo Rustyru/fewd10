@@ -1,0 +1,8 @@
+h1 {
+    color: darkcyan;
+    font-size: 4em;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+p, li{
+    font-size: 1.2em;
+}
