@@ -1,0 +1,27 @@
+/*l4 ex2*/
+header{
+    background: red;
+    float: left;
+    width: 100%
+}
+main{
+    background: yellow;
+    float: left;
+    width: 60%;
+}
+aside{
+    float: right;
+    width: 40%;
+    background: green;
+}
+footer{
+    background: blue;
+    float: left;
+    width: 100%
+}
+.bordered{
+    box-sizing: border-box;
+    border: 1px solid black;
+  padding: 10%;
+  height: 150px;
+}

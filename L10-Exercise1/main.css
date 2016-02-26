@@ -1,0 +1,117 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+p {
+    background-color: pink;
+    padding: 20px;
+}
+div div p {
+    background-color: gray;
+}
+.hamburger {
+    display: none;
+}
+header {
+    background-color: gray;
+}
+main {
+    padding: 0 1%;
+}
+nav li {
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+}
+.quarter {
+    width: 22.5%;
+    margin-right: 3.27%;
+    float: left;
+}
+.quarter:last-child {
+    margin-right: 0%;
+}
+.third {
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+html {
+    box-sizing: border-box;
+}
+.parent {
+    background-color: orange
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+/*
+*   CSS for mobile
+*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+    }
+    .parent {
+        width: 100%;
+    }
+    .quarter {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+    }
+    .third {
+        margin-right: 0;
+        width: 100%;
+        float: none;
+    }
+    .hamburger {
+        display: inline-block;
+        color: white;
+        padding: 20px;
+        background-color: blue;
+    }
+    nav li {
+        display: block;
+        background-color: blue;
+        color: white;
+        margin: 0;
+        padding: 20px;
+        border-bottom: 1px solid darkblue;
+    }
+    nav ul{
+        display: block;
+        display: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+}

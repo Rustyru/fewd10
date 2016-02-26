@@ -1,0 +1,14 @@
+#notification{
+    background: yellow;
+    padding: 0.5em 0.75em;
+    border: 2px solid #f2f2f2;
+}
+
+#notification:before{
+    content: "!";
+}
+.message{
+    color: green;
+    line-height: 2;
+    font-weight:600;
+}
